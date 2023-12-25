@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-1 {
+  background-image: url(images/image1.png);
+  /* min-height: 100%; */
+  min-height: 100vh;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  /* left: 50%;  */
+  text-align: center;
+  color: #fff;
+  font-size: 27px;
+  letter-spacing: 8px;
+}
+
+.text-btn {
+  background-color: #313534;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.light-section {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.dark-section {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.img-2 {
+  background-image: url(images/image2.png);
+  min-height: 400px;
+}
+
+.img-3 {
+  background-image: url(images/image3.png);
+  min-height: 400px;
+}
+
+@media screen and (max-width :600px) {
+  .text-btn {
+    padding: 10px;
+  }
+
+  .ptext {
+    font-size: 20px;
+  }
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
